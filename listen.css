@@ -1,0 +1,115 @@
+body {
+    background-color: #ffdeec;
+    font-family: 'Acme', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(184, 84, 112);
+    color: white;
+    padding: 80px;
+    display: grid;
+    justify-content: center;
+    position: relative;
+}
+
+header h1 {
+    font-family: 'Marck Script', cursive;
+    font-size: 50px;
+}
+
+.logo {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 70px;
+    height: auto;
+}
+
+.nav-buttons {
+    margin-top: 20px;
+}
+
+.nav-buttons a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px 20px;
+    background-color: rgb(223, 119, 148);
+    border-radius: 5px;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+.nav-buttons a:hover {
+    background-color: rgb(168, 57, 88);
+}
+
+main {
+    background-color: #F9C7D4;
+    padding: 20px;
+    width: 80%;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+.music {
+    font-size: 24px;
+    color: #7B3A48;
+}
+
+.play-music {
+    display: flex;
+    align-items: center;
+    box-shadow: black 30px;
+    gap: 40px;
+    margin: 30px;
+}
+
+.play-music img {
+    width: 350px;
+    height: auto;
+}
+
+.music-info {
+    flex: 1;
+    text-align: left;
+    color: #7B3A48;
+    gap: 0;
+}
+
+.music-info h2 {
+    font-size: 24px;
+}
+
+.music-info p {
+    font-size: 16px;
+}
+
+footer {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    background-color: rgb(168, 57, 88);
+    color: #ffdeec; 
+    font-size: 18px;
+}
+
+.footer-logo {
+    border-radius: 20px;
+    margin: 20px;
+    width: 60px;
+    height: auto;
+}
+
+footer a {
+    text-decoration: none;
+    color: #f8abcb;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: rgb(255, 106, 148);
+}
